@@ -1,0 +1,17 @@
+{
+  "name": "nodejs-mysql",
+  "version": "1.0.0",
+  "description": "nodejs backend for yauwa",
+  "author": "Javan Rasokat",
+  "scripts": {
+    "start": "nodemon server.js"
+  }, 
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cors": "^2.8.4",
+    "express": "^4.15.4",
+    "jsonwebtoken": "^8.3.0",
+    "mysql": "^2.14.1",
+    "nodemon": "^1.11.0"
+  }
+}
